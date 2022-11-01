@@ -1,0 +1,9 @@
+body {
+    background: url(../Temperature-converter/img/spaceman.jpg);
+    background-position: center 23%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
