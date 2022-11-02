@@ -1,9 +1,33 @@
-body {
-    background: url(../Temperature-converter/img/spaceman.jpg);
-    background-position: center 23%;
-    background-repeat: no-repeat;
-    background-size: 100%;
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+html {
+    background: url(../Temperature-converter/img/spaceman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+div {
+    height: 33.33vh;
+}
+
+input[type='number'] {
+    background: transparent;
+    border: 0;
+    color: bisque;
+    font-family: 'Poor Story', cursive;
+    font-size: 10rem;
+    height: 100%;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+
+::placeholder {
+    color: orange;
+    opacity: 50%;
 }
